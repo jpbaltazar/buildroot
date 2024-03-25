@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_LOGURU
+	bool "python-loguru"
+	help
+	  Loguru is a library which aims to bring enjoyable logging in Python.
+
+	  https://github.com/Delgan/loguru
