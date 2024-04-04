@@ -1,0 +1,11 @@
+[Unit]
+Description=Fiber 1Wire loader
+Before=fiber-core.service
+WantedBy=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'modprobe i2c-dev; sleep 0.5; echo ds2482 0x18 > /sys/bus/i2c/devices/i2c-10/new_device; modprobe wire max_slave_count=10;'
+
+[Install]
+WantedBy=multi-user.target

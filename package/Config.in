@@ -2841,4 +2841,8 @@ menu "Text editors and viewers"
 	source "package/vim/Config.in"
 endmenu
 
+menu "Fiber modules and services"
+	source "package/fiber-module-load/Config.in"
+endmenu
+
 endmenu

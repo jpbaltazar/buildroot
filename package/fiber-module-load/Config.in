@@ -1,0 +1,5 @@
+config BR2_PACKAGE_FIBER_MODULE_LOAD
+    bool "fiber-module-load"
+    depends on BR2_PACKAGE_SYSTEMD
+    help
+      Load the modules required by Fiber
