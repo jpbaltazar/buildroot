@@ -1,0 +1,9 @@
+[Unit]
+Description=Run write_tmpfs_to_disk every hour
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=1h
+
+[Install]
+WantedBy=timers.target

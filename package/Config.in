@@ -2845,8 +2845,8 @@ menu "Fiber modules and services"
 	source "package/fiber-module-load/Config.in"
 endmenu
 
-menu "Log2Ram"
-	source "package/log2ram/Config.in"
+menu "Write RAM logs"
+	source "package/write-ram-logs/Config.in"
 endmenu
 
 endmenu

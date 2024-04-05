@@ -1,0 +1,5 @@
+[Unit]
+Description=Write tmpfs to disk
+
+[Service]
+ExecStart=/path/to/write_ram_logs.sh

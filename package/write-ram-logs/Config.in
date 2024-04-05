@@ -1,0 +1,8 @@
+config BR2_PACKAGE_WRITE_RAM_LOGS
+    bool "write-ram-logs"
+    help
+      This option enables the write_tmpfs_to_disk service, which
+      periodically writes the contents of a tmpfs filesystem to disk.
+      This can be useful for systems that store logs or other data in
+      a tmpfs to reduce disk I/O, but still want to periodically save
+      this data to disk to prevent it from being lost on reboot.
