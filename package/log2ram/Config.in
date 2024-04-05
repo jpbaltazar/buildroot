@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LOG2RAM
+    bool "log2ram"
+    help
+        log2ram

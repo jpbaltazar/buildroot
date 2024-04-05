@@ -2845,4 +2845,8 @@ menu "Fiber modules and services"
 	source "package/fiber-module-load/Config.in"
 endmenu
 
+menu "Log2Ram"
+	source "package/log2ram/Config.in"
+endmenu
+
 endmenu
