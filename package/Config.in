@@ -2841,12 +2841,10 @@ menu "Text editors and viewers"
 	source "package/vim/Config.in"
 endmenu
 
-menu "Fiber modules and services"
+menu "Custom"
 	source "package/fiber-module-load/Config.in"
-endmenu
-
-menu "Write RAM logs"
 	source "package/write-ram-logs/Config.in"
+	source "package/ram-logs/Config.in"
 endmenu
 
 endmenu

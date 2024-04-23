@@ -1,0 +1,8 @@
+[Unit]
+Description=Write tmpfs to disk
+
+[Service]
+ExecStart=/usr/bin/write-ram-logs.sh
+
+[Install]
+WantedBy=multi-user.target

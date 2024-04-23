@@ -35,7 +35,7 @@ gpio=4,5=a4
 gpio=8,9=a4
 
 # enable spi
-dtoverlay=spi6-1cs
+dtoverlay=spi6-1cs,cs0_pin=12
 
 # enable i2c
 # dtparam=i2c_arm=on
@@ -63,4 +63,3 @@ dtoverlay=dwc2,dr_mode=host
 
 # enable 64bits support
 arm_64bit=1
-

@@ -1,0 +1,5 @@
+# Config.in
+config BR2_PACKAGE_RAM_LOGS
+    bool "ram-logs"
+    help
+      This package adds a tmpfs mount for /var/log to the system's fstab file.
