@@ -1,0 +1,5 @@
+# Config.in
+config BR2_PACKAGE_BLACKLIST_CDC_WDM
+    bool "blacklist-cdc-wdm"
+    help
+      This package blacklists the cdc-wdm driver to make the qmi driver load faster

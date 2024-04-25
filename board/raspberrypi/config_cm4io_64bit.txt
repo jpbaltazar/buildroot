@@ -33,6 +33,7 @@ dtoverlay=uart4
 # set gpios to uart
 gpio=4,5=a4
 gpio=8,9=a4
+gpio=13=a0
 
 # enable spi
 dtoverlay=spi6-1cs,cs0_pin=12

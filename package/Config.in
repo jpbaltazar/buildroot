@@ -2851,6 +2851,7 @@ menu "Custom"
 	source "package/fiber-module-load/Config.in"
 	source "package/write-ram-logs/Config.in"
 	source "package/ram-logs/Config.in"
+	source "package/blacklist-cdc-wdm/Config.in"
 endmenu
 
 endmenu
