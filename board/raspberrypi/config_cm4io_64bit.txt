@@ -31,8 +31,8 @@ dtoverlay=uart3
 dtoverlay=uart4
 
 # set gpios to uart
-gpio=4,5=a4
-gpio=8,9=a4
+#gpio=4,5=a4
+#gpio=8,9=a4
 
 # enable pwm on pin13
 dtoverlay=pwm,pin=13,func=4
